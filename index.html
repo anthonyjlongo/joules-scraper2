@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JOULES Scraper</title>
+</head>
+<body style="background-color:#1C1231; color:white; font-family:sans-serif;">
+  <div style="text-align:center; margin-top:50px;">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="JOULES Logo" width="150">
+    <h1>JOULES: Doorstep to Done</h1>
+    <form method="POST">
+      <input type="text" name="address" placeholder="Enter an address" style="padding:10px; width:300px;">
+      <button type="submit" style="padding:10px 20px; background:#00FF66; color:black;">Scrape</button>
+    </form>
+  </div>
+</body>
+</html>
